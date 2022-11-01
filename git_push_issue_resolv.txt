@@ -1,0 +1,15 @@
+rm -rf .git
+
+git init
+
+git remote add origin https://github.com/JavaProgramTo/Kotlin-Demo.git
+
+git remote -v (to see the remote origin)
+
+git add -A(add all files)
+
+git commit -m 'Added my project'
+
+git pull --rebase origin master
+
+git push  origin master
